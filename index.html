@@ -1,0 +1,2477 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Trương Trần Thế Quang (Tea Quang) | Chánh Kiến: Học - Hiểu - Hành</title>
+  <meta name="description" content="Trang cá nhân của Trương Trần Thế Quang (Tea Quang) - Thay đổi cuộc đời bằng tri thức đúng. Chánh kiến: Học - Hiểu - Hành. 3 Giá trị cốt lõi: Đạo đức - Trí tuệ - Nghị lực.">
+  <meta name="keywords" content="Trương Trần Thế Quang, Tea Quang, Chánh kiến, Đạo đức, Trí tuệ, Nghị lực, Học Hiểu Hành, Giáo dục, Phát triển bản thân">
+  <meta name="author" content="Trương Trần Thế Quang">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Trương Trần Thế Quang (Tea Quang) - Chánh Kiến: Học - Hiểu - Hành">
+  <meta property="og:description" content="Thay đổi cuộc đời bằng tri thức đúng – 3 Giá trị cốt lõi: Đạo đức, Trí tuệ, Nghị lực.">
+  <meta property="og:image" content="ảnh 3x4 ck3h.jpg">
+  
+  <!-- Favicon (Inline SVG Brand Icon) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%23059669'/><text x='50%' y='68%' font-size='56' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>Q</text></svg>" type="image/svg+xml">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Playfair+Display:ital,wght@0,700;0,800;1,600;1,700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ==========================================================================
+       1. DESIGN SYSTEM & CSS VARIABLES
+       ========================================================================== */
+    :root {
+      /* Brand Color Palette */
+      --primary: #059669;
+      --primary-dark: #047857;
+      --primary-light: #10b981;
+      --primary-subtle: #ecfdf5;
+      --primary-glow: rgba(5, 150, 105, 0.25);
+
+      --accent: #d97706;
+      --accent-dark: #b45309;
+      --accent-light: #f59e0b;
+      --accent-subtle: #fef3c7;
+
+      --pillar-ethics: #059669;
+      --pillar-ethics-subtle: #ecfdf5;
+      --pillar-wisdom: #2563eb;
+      --pillar-wisdom-subtle: #eff6ff;
+      --pillar-will: #dc2626;
+      --pillar-will-subtle: #fef2f2;
+
+      --zalo: #0068ff;
+      --zalo-hover: #0054cc;
+      --fb: #1877f2;
+      --fb-hover: #1464cc;
+
+      /* Neutral Palette - Light Theme */
+      --bg-body: #f8fafc;
+      --bg-surface: #ffffff;
+      --bg-surface-elevated: #ffffff;
+      --bg-card: #ffffff;
+      --bg-subtle: #f1f5f9;
+      --border-color: #e2e8f0;
+      --border-subtle: #edf2f7;
+
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --text-subtle: #64748b;
+      --text-inverted: #ffffff;
+
+      /* Elevations & Shadows */
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      --shadow-lg: 0 12px 24px -4px rgba(0, 0, 0, 0.08), 0 4px 10px -2px rgba(0, 0, 0, 0.04);
+      --shadow-xl: 0 20px 30px -6px rgba(0, 0, 0, 0.12), 0 8px 12px -4px rgba(0, 0, 0, 0.06);
+
+      /* Border Radii */
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 22px;
+      --radius-xl: 30px;
+      --radius-full: 9999px;
+
+      /* Layout */
+      --container-width: 1140px;
+      --header-height: 72px;
+
+      /* Transitions */
+      --transition-fast: 0.18s ease;
+      --transition-normal: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    [data-theme="dark"] {
+      --bg-body: #0b1120;
+      --bg-surface: #131d31;
+      --bg-surface-elevated: #1a2744;
+      --bg-card: #141f36;
+      --bg-subtle: #19253d;
+      --border-color: #243452;
+      --border-subtle: #1c2b45;
+
+      --text-main: #f8fafc;
+      --text-muted: #cbd5e1;
+      --text-subtle: #94a3b8;
+
+      --primary-subtle: rgba(5, 150, 105, 0.18);
+      --accent-subtle: rgba(217, 119, 6, 0.18);
+      --pillar-ethics-subtle: rgba(5, 150, 105, 0.18);
+      --pillar-wisdom-subtle: rgba(37, 99, 235, 0.18);
+      --pillar-will-subtle: rgba(220, 38, 38, 0.18);
+
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.35);
+      --shadow-md: 0 4px 10px rgba(0, 0, 0, 0.45);
+      --shadow-lg: 0 12px 28px rgba(0, 0, 0, 0.55);
+      --shadow-xl: 0 20px 35px rgba(0, 0, 0, 0.65);
+    }
+
+    /* ==========================================================================
+       2. BASE RESET & TYPOGRAPHY
+       ========================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--bg-body);
+      color: var(--text-main);
+      line-height: 1.7;
+      letter-spacing: -0.01em;
+      transition: background-color var(--transition-normal), color var(--transition-normal);
+      padding-top: var(--header-height);
+      padding-bottom: 70px;
+      overflow-x: hidden;
+    }
+
+    @media (min-width: 768px) {
+      body {
+        padding-bottom: 0;
+      }
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: color var(--transition-fast), transform var(--transition-fast);
+    }
+
+    button {
+      font-family: inherit;
+      border: none;
+      background: none;
+      cursor: pointer;
+      outline: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .container {
+      width: 100%;
+      max-width: var(--container-width);
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    .font-serif {
+      font-family: 'Playfair Display', Georgia, serif;
+    }
+
+    /* Scroll progress bar */
+    #scrollProgress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 3.5px;
+      width: 0%;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      z-index: 1001;
+      transition: width 0.1s linear;
+    }
+
+    /* Section Headers */
+    .section-header {
+      text-align: center;
+      max-width: 740px;
+      margin: 0 auto 3rem auto;
+    }
+
+    .section-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.35rem 0.95rem;
+      border-radius: var(--radius-full);
+      background: var(--primary-subtle);
+      color: var(--primary);
+      font-size: 0.825rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+      border: 1px solid rgba(5, 150, 105, 0.2);
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: 800;
+      line-height: 1.25;
+      color: var(--text-main);
+      margin-bottom: 1rem;
+    }
+
+    @media (min-width: 768px) {
+      .section-title {
+        font-size: 2.4rem;
+      }
+    }
+
+    .section-desc {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+    }
+
+    /* ==========================================================================
+       3. SITE HEADER & NAVIGATION
+       ========================================================================== */
+    .site-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: var(--header-height);
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border-color);
+      z-index: 1000;
+      transition: background-color var(--transition-normal), border-color var(--transition-normal);
+    }
+
+    [data-theme="dark"] .site-header {
+      background: rgba(19, 29, 49, 0.88);
+    }
+
+    .header-inner {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      font-weight: 800;
+      font-size: 1.15rem;
+      color: var(--text-main);
+    }
+
+    .brand-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: var(--radius-md);
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.25rem;
+      box-shadow: 0 4px 10px rgba(5, 150, 105, 0.3);
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.15;
+    }
+
+    .brand-text small {
+      font-size: 0.725rem;
+      font-weight: 600;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .nav-links {
+      display: none;
+      list-style: none;
+      gap: 1.75rem;
+      align-items: center;
+    }
+
+    @media (min-width: 900px) {
+      .nav-links {
+        display: flex;
+      }
+    }
+
+    .nav-link {
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      position: relative;
+      padding: 0.4rem 0;
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+      color: var(--primary);
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--primary);
+      transition: width var(--transition-fast);
+      border-radius: var(--radius-full);
+    }
+
+    .nav-link:hover::after,
+    .nav-link.active::after {
+      width: 100%;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .theme-toggle-btn {
+      width: 42px;
+      height: 42px;
+      border-radius: var(--radius-full);
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all var(--transition-fast);
+    }
+
+    .theme-toggle-btn:hover {
+      background: var(--primary-subtle);
+      color: var(--primary);
+      transform: rotate(15deg);
+    }
+
+    .btn-contact-header {
+      display: none;
+      padding: 0.55rem 1.15rem;
+      background: var(--primary);
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 0.9rem;
+      border-radius: var(--radius-full);
+      box-shadow: 0 4px 12px rgba(5, 150, 105, 0.25);
+      transition: all var(--transition-fast);
+    }
+
+    @media (min-width: 640px) {
+      .btn-contact-header {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+      }
+    }
+
+    .btn-contact-header:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(5, 150, 105, 0.35);
+    }
+
+    .menu-toggle-btn {
+      width: 42px;
+      height: 42px;
+      border-radius: var(--radius-md);
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @media (min-width: 900px) {
+      .menu-toggle-btn {
+        display: none;
+      }
+    }
+
+    /* Mobile Drawer */
+    .mobile-drawer {
+      position: fixed;
+      top: var(--header-height);
+      left: 0;
+      right: 0;
+      background: var(--bg-surface);
+      border-bottom: 1px solid var(--border-color);
+      box-shadow: var(--shadow-xl);
+      padding: 1.5rem 1.25rem 2rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      transform: translateY(-120%);
+      opacity: 0;
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease;
+      z-index: 999;
+      pointer-events: none;
+    }
+
+    .mobile-drawer.open {
+      transform: translateY(0);
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .mobile-drawer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .mobile-drawer-link {
+      font-size: 1.1rem;
+      font-weight: 600;
+      padding: 0.75rem 1rem;
+      border-radius: var(--radius-md);
+      background: var(--bg-subtle);
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .mobile-drawer-link:hover {
+      background: var(--primary-subtle);
+      color: var(--primary);
+    }
+
+    /* ==========================================================================
+       4. HERO PROFILE SECTION
+       ========================================================================== */
+    .hero-section {
+      position: relative;
+      padding: 3.5rem 0 4.5rem 0;
+      overflow: hidden;
+      background: radial-gradient(circle at top right, rgba(5, 150, 105, 0.08) 0%, transparent 60%),
+                  radial-gradient(circle at bottom left, rgba(217, 119, 6, 0.06) 0%, transparent 50%);
+    }
+
+    .hero-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Avatar Frame */
+    .avatar-wrapper {
+      position: relative;
+      width: 190px;
+      height: 190px;
+      margin: 0 auto 2rem auto;
+    }
+
+    @media (min-width: 768px) {
+      .avatar-wrapper {
+        width: 220px;
+        height: 220px;
+        margin-bottom: 2.25rem;
+      }
+    }
+
+    /* Pulsing Outer Ring */
+    .avatar-ring-glow {
+      position: absolute;
+      inset: -8px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--primary), var(--accent), var(--primary-light));
+      filter: blur(8px);
+      opacity: 0.45;
+      animation: avatarPulse 4s ease-in-out infinite alternate;
+    }
+
+    @keyframes avatarPulse {
+      0% { transform: scale(0.98); opacity: 0.35; }
+      100% { transform: scale(1.05); opacity: 0.65; }
+    }
+
+    .avatar-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      padding: 5px;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      box-shadow: var(--shadow-xl);
+    }
+
+    .avatar-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      border-radius: 50%;
+      border: 4px solid var(--bg-surface);
+      background-color: var(--bg-subtle);
+      transition: transform var(--transition-normal);
+    }
+
+    .avatar-wrapper:hover .avatar-img {
+      transform: scale(1.04);
+    }
+
+    .avatar-status-badge {
+      position: absolute;
+      bottom: 6px;
+      right: 14px;
+      background: var(--bg-surface);
+      color: var(--primary);
+      padding: 0.35rem 0.75rem;
+      border-radius: var(--radius-full);
+      font-size: 0.775rem;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      box-shadow: var(--shadow-md);
+      border: 1.5px solid var(--border-color);
+      white-space: nowrap;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--primary-light);
+      animation: statusDotPulse 2s infinite;
+    }
+
+    @keyframes statusDotPulse {
+      0% { transform: scale(0.9); opacity: 1; }
+      50% { transform: scale(1.3); opacity: 0.6; }
+      100% { transform: scale(0.9); opacity: 1; }
+    }
+
+    /* Hero Text */
+    .hero-tagline {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.35rem 0.95rem;
+      background: var(--primary-subtle);
+      color: var(--primary);
+      border-radius: var(--radius-full);
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 1rem;
+    }
+
+    .hero-name {
+      font-size: 2.25rem;
+      font-weight: 800;
+      color: var(--text-main);
+      line-height: 1.2;
+      margin-bottom: 0.35rem;
+      letter-spacing: -0.02em;
+    }
+
+    @media (min-width: 768px) {
+      .hero-name {
+        font-size: 3.15rem;
+      }
+    }
+
+    .hero-nickname {
+      display: inline-block;
+      color: var(--primary);
+      font-weight: 700;
+      font-size: 1.8rem;
+    }
+
+    @media (min-width: 768px) {
+      .hero-nickname {
+        font-size: 2.4rem;
+      }
+    }
+
+    .hero-role {
+      font-size: 1.05rem;
+      color: var(--text-subtle);
+      font-weight: 500;
+      margin-bottom: 1.75rem;
+    }
+
+    /* Core Message Slogan Box */
+    .hero-slogan-card {
+      max-width: 780px;
+      margin: 0 auto 2.25rem auto;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-left: 5px solid var(--accent);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem 1.75rem;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+      transition: transform var(--transition-normal);
+    }
+
+    .hero-slogan-card:hover {
+      transform: translateY(-3px);
+    }
+
+    .hero-slogan-quote {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--accent-dark);
+      line-height: 1.5;
+      margin-bottom: 0.5rem;
+    }
+
+    [data-theme="dark"] .hero-slogan-quote {
+      color: var(--accent-light);
+    }
+
+    @media (min-width: 768px) {
+      .hero-slogan-quote {
+        font-size: 1.45rem;
+      }
+    }
+
+    .hero-slogan-sub {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    /* Hero Action Buttons */
+    .hero-cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 2.75rem;
+      width: 100%;
+      max-width: 580px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      padding: 0.85rem 1.65rem;
+      border-radius: var(--radius-full);
+      font-weight: 700;
+      font-size: 0.95rem;
+      transition: all var(--transition-fast);
+      text-align: center;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #ffffff;
+      box-shadow: 0 4px 14px rgba(5, 150, 105, 0.35);
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(5, 150, 105, 0.45);
+    }
+
+    .btn-zalo {
+      background: var(--zalo);
+      color: #ffffff;
+      box-shadow: 0 4px 14px rgba(0, 104, 255, 0.35);
+      flex: 1 1 200px;
+    }
+
+    .btn-zalo:hover {
+      background: var(--zalo-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 104, 255, 0.45);
+    }
+
+    .btn-fb {
+      background: var(--fb);
+      color: #ffffff;
+      box-shadow: 0 4px 14px rgba(24, 119, 242, 0.35);
+      flex: 1 1 200px;
+    }
+
+    .btn-fb:hover {
+      background: var(--fb-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(24, 119, 242, 0.45);
+    }
+
+    .btn-outline {
+      background: var(--bg-surface);
+      color: var(--text-main);
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .btn-outline:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+      transform: translateY(-2px);
+    }
+
+    /* Key Stats Counters */
+    .hero-stats-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      max-width: 650px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .stat-pill {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1rem 0.75rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .stat-number {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--primary);
+      line-height: 1.2;
+    }
+
+    @media (min-width: 768px) {
+      .stat-number {
+        font-size: 1.85rem;
+      }
+    }
+
+    .stat-label {
+      font-size: 0.775rem;
+      font-weight: 600;
+      color: var(--text-subtle);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    /* ==========================================================================
+       5. 3 GIÁ TRỊ CỐT LÕI (CORE PILLARS)
+       ========================================================================== */
+    .pillars-section {
+      padding: 5rem 0;
+      background: var(--bg-subtle);
+      position: relative;
+    }
+
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.75rem;
+    }
+
+    @media (min-width: 900px) {
+      .pillars-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .pillar-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 2.25rem 1.75rem;
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      display: flex;
+      flex-direction: column;
+      transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+    }
+
+    .pillar-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-xl);
+    }
+
+    .pillar-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background: var(--card-accent, var(--primary));
+    }
+
+    .pillar-card.ethics {
+      --card-accent: var(--pillar-ethics);
+      --card-bg-subtle: var(--pillar-ethics-subtle);
+    }
+
+    .pillar-card.wisdom {
+      --card-accent: var(--pillar-wisdom);
+      --card-bg-subtle: var(--pillar-wisdom-subtle);
+    }
+
+    .pillar-card.will {
+      --card-accent: var(--pillar-will);
+      --card-bg-subtle: var(--pillar-will-subtle);
+    }
+
+    .pillar-icon-box {
+      width: 58px;
+      height: 58px;
+      border-radius: var(--radius-md);
+      background: var(--card-bg-subtle);
+      color: var(--card-accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.25rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .pillar-header {
+      margin-bottom: 1rem;
+    }
+
+    .pillar-tag {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--card-accent);
+      margin-bottom: 0.25rem;
+    }
+
+    .pillar-title {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--text-main);
+    }
+
+    .pillar-motto {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--card-accent);
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px dashed var(--border-color);
+    }
+
+    .pillar-desc {
+      font-size: 0.975rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+      margin-bottom: 1.5rem;
+      flex-grow: 1;
+    }
+
+    .pillar-features {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .pillar-feature-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.65rem;
+      font-size: 0.925rem;
+      color: var(--text-main);
+      font-weight: 500;
+    }
+
+    .feature-icon {
+      color: var(--card-accent);
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+
+    /* ==========================================================================
+       6. HÀNH TRÌNH GIÁO DỤC (EDUCATIONAL JOURNEY & METHODOLOGY)
+       ========================================================================== */
+    .journey-section {
+      padding: 5.5rem 0;
+      background: var(--bg-surface);
+      position: relative;
+    }
+
+    /* 3 Bước Học - Hiểu - Hành Triển Khai */
+    .method-interactive-box {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-xl);
+      padding: 2.25rem 1.5rem;
+      margin-bottom: 4rem;
+      box-shadow: var(--shadow-md);
+    }
+
+    @media (min-width: 768px) {
+      .method-interactive-box {
+        padding: 3rem 2.5rem;
+      }
+    }
+
+    .method-nav-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+    }
+
+    .method-tab-btn {
+      padding: 0.75rem 1.5rem;
+      border-radius: var(--radius-full);
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      font-weight: 700;
+      font-size: 0.95rem;
+      transition: all var(--transition-fast);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .method-tab-btn.active {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+      box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+    }
+
+    .method-panel {
+      display: none;
+      animation: fadeIn 0.35s ease;
+    }
+
+    .method-panel.active {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    @media (min-width: 800px) {
+      .method-panel.active {
+        grid-template-columns: 1.1fr 0.9fr;
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .method-info-badge {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+
+    .method-panel-title {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 1rem;
+      line-height: 1.3;
+    }
+
+    .method-panel-text {
+      font-size: 1rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-bottom: 1.25rem;
+    }
+
+    .method-quote-box {
+      background: var(--bg-surface);
+      border-radius: var(--radius-md);
+      padding: 1.25rem 1.5rem;
+      border-left: 4px solid var(--primary);
+      font-style: italic;
+      color: var(--text-main);
+      font-size: 0.95rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .method-illustration-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 2rem 1.75rem;
+      box-shadow: var(--shadow-md);
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .step-checkpoint {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.9rem;
+    }
+
+    .step-check-icon {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: var(--primary-subtle);
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .step-checkpoint-content h5 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 0.2rem;
+    }
+
+    .step-checkpoint-content p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Timeline Cards */
+    .timeline-wrap {
+      position: relative;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .timeline-wrap::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 20px;
+      width: 3px;
+      background: var(--border-color);
+    }
+
+    @media (min-width: 768px) {
+      .timeline-wrap::before {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 2.5rem;
+      padding-left: 50px;
+    }
+
+    @media (min-width: 768px) {
+      .timeline-item {
+        width: 50%;
+        padding-left: 0;
+        margin-bottom: 3.5rem;
+      }
+
+      .timeline-item:nth-child(odd) {
+        left: 0;
+        padding-right: 40px;
+        text-align: right;
+      }
+
+      .timeline-item:nth-child(even) {
+        left: 50%;
+        padding-left: 40px;
+        text-align: left;
+      }
+    }
+
+    .timeline-marker {
+      position: absolute;
+      left: 10px;
+      top: 0;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--primary);
+      border: 4px solid var(--bg-surface);
+      box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.25);
+      z-index: 2;
+    }
+
+    @media (min-width: 768px) {
+      .timeline-item:nth-child(odd) .timeline-marker {
+        left: auto;
+        right: -11px;
+      }
+
+      .timeline-item:nth-child(even) .timeline-marker {
+        left: -11px;
+      }
+    }
+
+    .timeline-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem 1.75rem;
+      box-shadow: var(--shadow-sm);
+      transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+    }
+
+    .timeline-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--primary-light);
+    }
+
+    .timeline-time {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.35rem;
+    }
+
+    .timeline-title {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 0.65rem;
+    }
+
+    .timeline-text {
+      font-size: 0.925rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+    }
+
+    /* ==========================================================================
+       7. GÓC TRUYỀN CẢM HỨNG & QUOTES TÂM ĐẮC
+       ========================================================================== */
+    .quote-generator-section {
+      padding: 4.5rem 0;
+      background: radial-gradient(circle at center, rgba(5, 150, 105, 0.06) 0%, transparent 70%);
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .quote-display-card {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-xl);
+      padding: 2.5rem 2rem;
+      text-align: center;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+    }
+
+    .quote-icon-large {
+      font-size: 3rem;
+      color: var(--primary-light);
+      line-height: 1;
+      opacity: 0.35;
+      margin-bottom: 0.5rem;
+    }
+
+    .quote-dynamic-text {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.5;
+      margin-bottom: 1.25rem;
+      font-family: 'Playfair Display', Georgia, serif;
+      min-height: 75px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @media (min-width: 768px) {
+      .quote-dynamic-text {
+        font-size: 1.55rem;
+      }
+    }
+
+    .quote-dynamic-author {
+      font-size: 0.9rem;
+      color: var(--accent);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 1.75rem;
+    }
+
+    .btn-new-quote {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.65rem 1.35rem;
+      border-radius: var(--radius-full);
+      background: var(--primary-subtle);
+      color: var(--primary);
+      font-weight: 700;
+      font-size: 0.9rem;
+      transition: all var(--transition-fast);
+      border: 1px solid rgba(5, 150, 105, 0.2);
+    }
+
+    .btn-new-quote:hover {
+      background: var(--primary);
+      color: #ffffff;
+      transform: translateY(-2px);
+    }
+
+    /* ==========================================================================
+       8. KHU VỰC LIÊN HỆ & KẾT NỐI (ZALO, FACEBOOK, FORM)
+       ========================================================================== */
+    .contact-section {
+      padding: 5.5rem 0;
+      background: var(--bg-subtle);
+      position: relative;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.25rem;
+    }
+
+    @media (min-width: 900px) {
+      .contact-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    /* Social Connect Cards */
+    .social-direct-column {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .social-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      box-shadow: var(--shadow-sm);
+      transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+    }
+
+    .social-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .social-card-left {
+      display: flex;
+      align-items: center;
+      gap: 1.15rem;
+    }
+
+    .social-logo-circle {
+      width: 52px;
+      height: 52px;
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      flex-shrink: 0;
+    }
+
+    .social-logo-circle.zalo {
+      background: linear-gradient(135deg, #0068ff, #004ecc);
+      box-shadow: 0 4px 12px rgba(0, 104, 255, 0.3);
+    }
+
+    .social-logo-circle.fb {
+      background: linear-gradient(135deg, #1877f2, #0d5fc7);
+      box-shadow: 0 4px 12px rgba(24, 119, 242, 0.3);
+    }
+
+    .social-info-texts h4 {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 0.15rem;
+    }
+
+    .social-info-texts p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .btn-connect-sm {
+      padding: 0.55rem 1.15rem;
+      border-radius: var(--radius-full);
+      font-weight: 700;
+      font-size: 0.875rem;
+      color: #ffffff;
+      white-space: nowrap;
+      transition: opacity var(--transition-fast);
+    }
+
+    .btn-connect-sm.zalo {
+      background: var(--zalo);
+    }
+
+    .btn-connect-sm.fb {
+      background: var(--fb);
+    }
+
+    .btn-connect-sm:hover {
+      opacity: 0.9;
+    }
+
+    /* Quick Copy Box */
+    .quick-copy-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .quick-copy-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.75rem;
+    }
+
+    .quick-copy-title {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text-subtle);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .quick-copy-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 0.75rem 1rem;
+      gap: 0.75rem;
+    }
+
+    .phone-number-display {
+      font-size: 1.25rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      color: var(--text-main);
+    }
+
+    .btn-copy-action {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.45rem 0.95rem;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      font-size: 0.825rem;
+      font-weight: 700;
+      color: var(--primary);
+      transition: all var(--transition-fast);
+    }
+
+    .btn-copy-action:hover {
+      background: var(--primary-subtle);
+      border-color: var(--primary);
+    }
+
+    /* Contact Form */
+    .contact-form-wrap {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-xl);
+      padding: 2.25rem 1.75rem;
+      box-shadow: var(--shadow-lg);
+    }
+
+    @media (min-width: 640px) {
+      .contact-form-wrap {
+        padding: 2.5rem 2.25rem;
+      }
+    }
+
+    .contact-form-title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-form-subtitle {
+      font-size: 0.925rem;
+      color: var(--text-muted);
+      margin-bottom: 1.75rem;
+    }
+
+    .form-group {
+      margin-bottom: 1.25rem;
+    }
+
+    .form-label {
+      display: block;
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 0.45rem;
+    }
+
+    .form-input,
+    .form-textarea {
+      width: 100%;
+      padding: 0.85rem 1rem;
+      border-radius: var(--radius-md);
+      border: 1.5px solid var(--border-color);
+      background: var(--bg-subtle);
+      color: var(--text-main);
+      font-family: inherit;
+      font-size: 0.95rem;
+      transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+    }
+
+    .form-input:focus,
+    .form-textarea:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 4px var(--primary-glow);
+      background: var(--bg-surface);
+    }
+
+    .form-textarea {
+      resize: vertical;
+      min-height: 110px;
+    }
+
+    .btn-submit-form {
+      width: 100%;
+      padding: 0.9rem 1.5rem;
+      background: var(--primary);
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 1rem;
+      border-radius: var(--radius-full);
+      box-shadow: 0 4px 14px rgba(5, 150, 105, 0.35);
+      transition: all var(--transition-fast);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    .btn-submit-form:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(5, 150, 105, 0.45);
+    }
+
+    /* ==========================================================================
+       9. FOOTER
+       ========================================================================== */
+    .site-footer {
+      background: var(--bg-surface);
+      border-top: 1px solid var(--border-color);
+      padding: 3rem 0 2rem 0;
+      text-align: center;
+    }
+
+    .footer-logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-weight: 800;
+      font-size: 1.25rem;
+      color: var(--text-main);
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-motto {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      max-width: 500px;
+      margin: 0 auto 1.5rem auto;
+      line-height: 1.6;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      list-style: none;
+      margin-bottom: 1.75rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-link {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text-subtle);
+    }
+
+    .footer-link:hover {
+      color: var(--primary);
+    }
+
+    .footer-copyright {
+      font-size: 0.85rem;
+      color: var(--text-subtle);
+      border-top: 1px solid var(--border-color);
+      padding-top: 1.5rem;
+    }
+
+    /* ==========================================================================
+       10. MOBILE BOTTOM STICKY CONTACT BAR
+       ========================================================================== */
+    .mobile-bottom-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 64px;
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 0 1rem;
+      z-index: 998;
+      box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.08);
+    }
+
+    [data-theme="dark"] .mobile-bottom-bar {
+      background: rgba(19, 29, 49, 0.95);
+    }
+
+    @media (min-width: 768px) {
+      .mobile-bottom-bar {
+        display: none;
+      }
+    }
+
+    .mobile-bar-btn {
+      flex: 1;
+      max-width: 175px;
+      height: 44px;
+      border-radius: var(--radius-full);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: #ffffff;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .mobile-bar-btn.zalo {
+      background: var(--zalo);
+      margin-right: 0.5rem;
+    }
+
+    .mobile-bar-btn.fb {
+      background: var(--fb);
+    }
+
+    /* ==========================================================================
+       11. FLOATING QUICK ACTION BUTTONS (BACK TO TOP)
+       ========================================================================== */
+    .floating-back-to-top {
+      position: fixed;
+      right: 1.25rem;
+      bottom: 80px;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--primary);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--shadow-lg);
+      z-index: 995;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(10px);
+      transition: all var(--transition-fast);
+    }
+
+    @media (min-width: 768px) {
+      .floating-back-to-top {
+        bottom: 2rem;
+      }
+    }
+
+    .floating-back-to-top.visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .floating-back-to-top:hover {
+      background: var(--primary-dark);
+      transform: translateY(-3px);
+    }
+
+    /* ==========================================================================
+       12. TOAST NOTIFICATION COMPONENT
+       ========================================================================== */
+    .toast-container {
+      position: fixed;
+      top: 90px;
+      right: 1.25rem;
+      z-index: 1100;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      pointer-events: none;
+    }
+
+    .toast-msg {
+      pointer-events: auto;
+      background: var(--text-main);
+      color: var(--bg-surface);
+      padding: 0.85rem 1.25rem;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-xl);
+      font-size: 0.9rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      animation: slideInRight 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      max-width: 320px;
+    }
+
+    @keyframes slideInRight {
+      from { transform: translateX(100%); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Toast Notification Box -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION BAR
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#hero" class="brand-logo" aria-label="Về đầu trang">
+        <div class="brand-icon">Q</div>
+        <div class="brand-text">
+          <span>Tea Quang</span>
+          <small>Chánh Kiến</small>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav aria-label="Chính">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Trang Chủ</a></li>
+          <li><a href="#pillars" class="nav-link">3 Giá Trị Cốt Lõi</a></li>
+          <li><a href="#journey" class="nav-link">Hành Trình Giáo Dục</a></li>
+          <li><a href="#quotes" class="nav-link">Góc Tri Thức</a></li>
+          <li><a href="#contact" class="nav-link">Kết Nối</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <!-- Theme Toggle Button -->
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Đổi giao diện Sáng / Tối" title="Đổi chế độ Sáng / Tối">
+          <svg id="themeIconSun" style="display:none;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg id="themeIconMoon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+
+        <!-- Fast Header Action Button -->
+        <a href="https://zalo.me/0984950343" target="_blank" rel="noopener noreferrer" class="btn-contact-header">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+          <span>Nhắn Zalo</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="menu-toggle-btn" id="mobileMenuBtn" aria-label="Mở trình đơn" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <ul class="mobile-drawer-links">
+      <li><a href="#hero" class="mobile-drawer-link"><span>Trang Chủ</span> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a></li>
+      <li><a href="#pillars" class="mobile-drawer-link"><span>3 Giá Trị Cốt Lõi</span> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a></li>
+      <li><a href="#journey" class="mobile-drawer-link"><span>Hành Trình Giáo Dục</span> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a></li>
+      <li><a href="#quotes" class="mobile-drawer-link"><span>Góc Tri Thức</span> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a></li>
+      <li><a href="#contact" class="mobile-drawer-link"><span>Liên Hệ & Kết Nối</span> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a></li>
+    </ul>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION: AVATAR CHÂN DUNG & THÔNG ĐIỆP CHÍNH
+         ========================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <!-- Chân dung cá nhân khung tròn nổi bật -->
+        <div class="avatar-wrapper">
+          <div class="avatar-ring-glow"></div>
+          <div class="avatar-inner">
+            <!-- Tệp ảnh chính: ảnh 3x4 ck3h.jpg, tự động fallback nếu cần -->
+            <img src="ảnh 3x4 ck3h.jpg" 
+                 onerror="this.onerror=null; this.src='ck3h.jpg';" 
+                 alt="Trương Trần Thế Quang (Tea Quang) - Chân dung" 
+                 class="avatar-img"
+                 width="220"
+                 height="220"
+                 loading="eager">
+          </div>
+          <div class="avatar-status-badge" title="Sẵn sàng kết nối & chia sẻ">
+            <span class="status-dot"></span>
+            <span>Chia sẻ Chánh kiến</span>
+          </div>
+        </div>
+
+        <!-- Tên & Định danh -->
+        <div class="hero-tagline">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+          <span>Giáo Dục & Chuyển Hóa Nhận Thức</span>
+        </div>
+
+        <h1 class="hero-name">
+          Trương Trần Thế Quang <br class="hide-desktop">
+          <span class="hero-nickname">(Tea Quang)</span>
+        </h1>
+
+        <p class="hero-role">
+          Người đồng hành kiến tạo tư duy • Lan tỏa giá trị Chánh kiến & Đạo lý sống
+        </p>
+
+        <!-- Slogan Nổi Bật Yêu Cầu -->
+        <div class="hero-slogan-card">
+          <div class="hero-slogan-quote">
+            “Thay đổi cuộc đời bằng tri thức đúng – Chánh kiến: Học - Hiểu - Hành”
+          </div>
+          <p class="hero-slogan-sub">
+            Tri thức chỉ thực sự trở thành sức mạnh khi được soi rọi bởi <strong>Đạo đức</strong>, đào sâu bằng <strong>Trí tuệ</strong> và tôi luyện qua <strong>Nghị lực</strong> bền bỉ mỗi ngày.
+          </p>
+        </div>
+
+        <!-- Nút Kết Nối Nhanh (Zalo & Facebook) -->
+        <div class="hero-cta-group">
+          <!-- Nút Zalo -->
+          <a href="https://zalo.me/0984950343" target="_blank" rel="noopener noreferrer" class="btn btn-zalo" title="Nhắn Zalo: 0984 950 343">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.03 2 11c0 2.87 1.5 5.43 3.84 7.02-.17 1.25-.77 3.12-1.78 4.25 0 0 2.5-.2 4.75-1.57.7.19 1.43.3 2.19.3 5.52 0 10-4.03 10-9s-4.48-9-10-9zm1.18 12.25h-3.4c-.28 0-.5-.22-.5-.5v-.35c0-.28.22-.5.5-.5h2.12l-2.5-3.32c-.1-.13-.15-.29-.15-.45v-.38c0-.28.22-.5.5-.5h3.25c.28 0 .5.22.5.5v.35c0 .28-.22.5-.5.5h-1.97l2.5 3.32c.1.13.15.29.15.45v.38c0 .28-.22.5-.5.5z"/></svg>
+            <span>Kết Nối Zalo: 0984 950 343</span>
+          </a>
+
+          <!-- Nút Facebook Cá Nhân -->
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="btn btn-fb" title="Ghé thăm trang Facebook cá nhân">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <span>Facebook Cá Nhân</span>
+          </a>
+
+          <!-- Nút Đọc Hành Trình -->
+          <a href="#pillars" class="btn btn-outline" style="width:100%; max-width: 420px;">
+            <span>Khám Phá 3 Giá Trị Cốt Lõi</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+          </a>
+        </div>
+
+        <!-- 3 Thống kê / Chỉ số định hướng -->
+        <div class="hero-stats-row">
+          <div class="stat-pill">
+            <div class="stat-number">Học</div>
+            <div class="stat-label">Văn Tuệ • Thu Nhận Đúng</div>
+          </div>
+          <div class="stat-pill">
+            <div class="stat-number">Hiểu</div>
+            <div class="stat-label">Tư Tuệ • Thấu Triệt Bản Chất</div>
+          </div>
+          <div class="stat-pill">
+            <div class="stat-number">Hành</div>
+            <div class="stat-label">Tu Tuệ • Thực Chứng Thực Tế</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3 GIÁ TRỊ CỐT LÕI (ĐẠO ĐỨC - TRÍ TUỆ - NGHỊ LỰC)
+         ========================================================================== -->
+    <section class="pillars-section" id="pillars">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Nền Tảng Nhân Cách</div>
+          <h2 class="section-title">3 Giá Trị Cốt Lõi Vững Vàng</h2>
+          <p class="section-desc">
+            Như chiếc kiềng ba chân nâng đỡ trọn vẹn cuộc sống: Đạo đức dẫn hướng tâm hồn, Trí tuệ soi sáng con đường và Nghị lực giúp ta vượt qua mọi ghềnh thác.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          
+          <!-- Cột mốc 1: Đạo Đức -->
+          <article class="pillar-card ethics">
+            <div class="pillar-icon-box">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </div>
+            <div class="pillar-header">
+              <div class="pillar-tag">Cột Trụ Thứ Nhất</div>
+              <h3 class="pillar-title">Đạo Đức</h3>
+            </div>
+            <div class="pillar-motto">“Tâm Từ Bi • Trung Thực • Tinh Thần Phụng Sự”</div>
+            <p class="pillar-desc">
+              Đạo đức là chiếc la bàn định hướng cho mọi hành vi. Là lòng trắc ẩn, sự chính trực và ý thức sống có ích cho cộng đồng, không làm tổn hại đến tha nhân và vạn vật xung quanh.
+            </p>
+            <ul class="pillar-features">
+              <li class="pillar-feature-item">
+                <svg class="feature-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Sự Tử Tế:</strong> Nuôi dưỡng tình thương yêu và lòng biết ơn mỗi ngày.</span>
+              </li>
+              <li class="pillar-feature-item">
+                <svg class="feature-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Chính Trực:</strong> Lời nói song hành cùng việc làm, giữ trọn chữ tín.</span>
+              </li>
+              <li class="pillar-feature-item">
+                <svg class="feature-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Phụng Sự:</strong> Sống cống hiến, sẵn sàng sẻ chia tri thức vì sự tiến bộ chung.</span>
+              </li>
+            </ul>
+          </article>
+
+          <!-- Cột mốc 2: Trí Tuệ -->
+          <article class="pillar-card wisdom">
+            <div class="pillar-icon-box">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+            </div>
+            <div class="pillar-header">
+              <div class="pillar-tag">Cột Trụ Thứ Hai</div>
+              <h3 class="pillar-title">Trí Tuệ</h3>
+            </div>
+            <div class="pillar-motto">“Hiểu Đúng Bản Chất • Tư Duy Nhân Quả”</div>
+            <p class="pillar-desc">
+              Trí tuệ không chỉ là bằng cấp hay thông tin bề nổi, mà là khả năng quan sát đa chiều, phân tích quy luật nhân quả và đúc kết những chân lý cốt lõi để đưa ra lựa chọn sáng suốt.
+            </p>
+            <ul class="pillar-features">
+              <li class="pillar-feature-item">
+                <svg class="feature-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Chánh Kiến:</strong> Nhìn nhận sự việc khách quan, không định kiến hay ảo tưởng.</span>
+              </li>
+              <li class="pillar-feature-item">
+                <svg class="feature-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Tự Học Suốt Đời:</strong> Không ngừng nâng cấp tư duy, đúc kết tinh hoa nhân loại.</span>
+              </li>
+              <li class="pillar-feature-item">
+                <svg class="feature-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Đơn Giản Hóa:</strong> Chuyển hóa những điều phức tạp thành nguyên lý dễ hiểu, dễ làm.</span>
+              </li>
+            </ul>
+          </article>
+
+          <!-- Cột mốc 3: Nghị Lực -->
+          <article class="pillar-card will">
+            <div class="pillar-icon-box">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+            </div>
+            <div class="pillar-header">
+              <div class="pillar-tag">Cột Trụ Thứ Ba</div>
+              <h3 class="pillar-title">Nghị Lực</h3>
+            </div>
+            <div class="pillar-motto">“Dũng Cảm • Nhẫn Nại • Tĩnh Lặng Vượt Sóng”</div>
+            <p class="pillar-desc">
+              Nghị lực là nguồn năng lượng nội tại gồm 3 phẩm chất: DŨNG (dám làm việc đúng, dám bước qua sợ hãi), NHẪN (bền bỉ đến cùng) và TĨNH (an yên, không dao động trước nghịch cảnh).
+            </p>
+            <ul class="pillar-features">
+              <li class="pillar-feature-item">
+                <svg class="feature-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Dũng:</strong> Dám nhận trách nhiệm, đương đầu thử thách, không thoái thác.</span>
+              </li>
+              <li class="pillar-feature-item">
+                <svg class="feature-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Nhẫn:</strong> Kiên trì từng bước nhỏ, xem khó khăn là bài tập rèn luyện thân tâm.</span>
+              </li>
+              <li class="pillar-feature-item">
+                <svg class="feature-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Tĩnh:</strong> Giữ tâm bình thản trước khen chê, vững chãi giữa muôn vàn biến động.</span>
+              </li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         HÀNH TRÌNH GIÁO DỤC: HỌC - HIỂU - HÀNH (VĂN - TƯ - TU)
+         ========================================================================== -->
+    <section class="journey-section" id="journey">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Phương Pháp Luận</div>
+          <h2 class="section-title">Hành Trình Giáo Dục & Chuyển Hóa</h2>
+          <p class="section-desc">
+            Tri thức chỉ thực sự có giá trị khi được vận hành qua tiến trình 3 bước khép kín: từ Tiếp thu đúng (Học), Phân tích thấu đáo (Hiểu) đến Thực hành kiên trì (Hành).
+          </p>
+        </div>
+
+        <!-- Khối tương tác 3 Bước Chánh Kiến -->
+        <div class="method-interactive-box">
+          <div class="method-nav-tabs" role="tablist">
+            <button class="method-tab-btn active" data-tab="tab-hoc">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+              <span>1. HỌC (Văn Tuệ)</span>
+            </button>
+            <button class="method-tab-btn" data-tab="tab-hieu">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+              <span>2. HIỂU (Tư Tuệ)</span>
+            </button>
+            <button class="method-tab-btn" data-tab="tab-hanh">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+              <span>3. HÀNH (Tu Tuệ)</span>
+            </button>
+          </div>
+
+          <!-- Nội dung Tab 1: Học -->
+          <div class="method-panel active" id="tab-hoc">
+            <div>
+              <div class="method-info-badge">Bước 1 • Tiếp Nhận Tri Thức Tinh Hoa</div>
+              <h3 class="method-panel-title">Học Đúng Từ Gốc – Lựa Chọn Thầy Hiền Trí & Sách Tinh Hoa</h3>
+              <p class="method-panel-text">
+                Học không phải là nhồi nhét lý thuyết suông. Học là chủ động tìm kiếm những tri thức chân chính, mở rộng góc nhìn và biết chọn lọc thông tin đáng tin cậy. Khi có nguồn tiếp nhận đúng, ta mới tránh được những sai lầm ngay từ vạch xuất phát.
+              </p>
+              <div class="method-quote-box">
+                “Đọc muôn quyển sách không bằng đi vạn dặm đường, đi vạn dặm đường không bằng gặp đúng người thầy khai sáng.”
+              </div>
+            </div>
+            <div class="method-illustration-card">
+              <div class="step-checkpoint">
+                <div class="step-check-icon">✓</div>
+                <div class="step-checkpoint-content">
+                  <h5>Tiếp nhận có chọn lọc</h5>
+                  <p>Lắng nghe đa chiều, tìm đọc tài liệu chuẩn xác và các bài học từ trải nghiệm thực tiễn.</p>
+                </div>
+              </div>
+              <div class="step-checkpoint">
+                <div class="step-check-icon">✓</div>
+                <div class="step-checkpoint-content">
+                  <h5>Tâm thế chiếc ly rỗng</h5>
+                  <p>Hạ bớt cái tôi định kiến để đón nhận những góc nhìn mới và tư duy tiến bộ.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Nội dung Tab 2: Hiểu -->
+          <div class="method-panel" id="tab-hieu">
+            <div>
+              <div class="method-info-badge">Bước 2 • Tư Duy Đa Chiều & Phân Tích Nhân Quả</div>
+              <h3 class="method-panel-title">Hiểu Thấu Bản Chất – Biến Kiến Thức Thành Của Mình</h3>
+              <p class="method-panel-text">
+                Hiểu là giai đoạn đào sâu: tại sao việc này diễn ra? Đâu là nguyên nhân cốt lõi đằng sau hiện tượng? Khi ta đặt câu hỏi phản biện, phân tích theo quy luật Nhân – Quả và đúc kết thành các quy luật đơn giản, tri thức mới thực sự biến thành trí tuệ nội tại.
+              </p>
+              <div class="method-quote-box">
+                “Học mà không suy ngẫm thì vô ích, suy ngẫm mà không học thì nguy hiểm.” – Khổng Tử
+              </div>
+            </div>
+            <div class="method-illustration-card">
+              <div class="step-checkpoint">
+                <div class="step-check-icon">✓</div>
+                <div class="step-checkpoint-content">
+                  <h5>Tư duy phản biện (Critical Thinking)</h5>
+                  <p>Tách rời cảm xúc để phân tích sự thật khách quan dựa trên số liệu và nguyên lý.</p>
+                </div>
+              </div>
+              <div class="step-checkpoint">
+                <div class="step-check-icon">✓</div>
+                <div class="step-checkpoint-content">
+                  <h5>Quy luật Nhân Quả sâu sắc</h5>
+                  <p>Thấy rõ gieo nhân nào sẽ gặt quả nấy để đưa ra quyết định vững vàng.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Nội dung Tab 3: Hành -->
+          <div class="method-panel" id="tab-hanh">
+            <div>
+              <div class="method-info-badge">Bước 3 • Ứng Dụng Thực Tế & Chuyển Hóa Bản Thân</div>
+              <h3 class="method-panel-title">Hành Kiên Định – Thước Đo Duy Nhất Của Sự Chuyển Hóa</h3>
+              <p class="method-panel-text">
+                Một gam hành động giá trị hơn cả tấn lý thuyết. Khi mang tri thức áp dụng vào công việc, lối sống và cách đối nhân xử thế mỗi ngày, ta đối chiếu kết quả thực tế để liên tục sửa mình. Đó chính là con đường rèn luyện giúp con người trưởng thành bền vững.
+              </p>
+              <div class="method-quote-box">
+                “Biết mà không làm thì chưa thực sự là biết. Làm đến nơi đến chốn mới sinh ra năng lực thật.”
+              </div>
+            </div>
+            <div class="method-illustration-card">
+              <div class="step-checkpoint">
+                <div class="step-check-icon">✓</div>
+                <div class="step-checkpoint-content">
+                  <h5>Kỷ luật & Tính liên tục</h5>
+                  <p>Làm đều đặn những việc nhỏ đúng đắn mỗi ngày tạo nên bước nhảy vọt thần kỳ.</p>
+                </div>
+              </div>
+              <div class="step-checkpoint">
+                <div class="step-check-icon">✓</div>
+                <div class="step-checkpoint-content">
+                  <h5>Quan sát - Phân tích - Đúc kết lại</h5>
+                  <p>Học từ chính trải nghiệm thực tế để không ngừng nâng cấp bản thân phiên bản tốt hơn.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Các Cột Mốc Trong Hành Trình -->
+        <div class="timeline-wrap">
+          <!-- Cột mốc 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-time">Giai Đoạn Khởi Đầu</div>
+              <h4 class="timeline-title">Gieo Mầm Khát Vọng Tri Thức</h4>
+              <p class="timeline-text">
+                Xuất phát từ tình yêu giáo dục và khao khát tìm kiếm phương pháp truyền thụ thực chất. Nhận ra rằng lối học vẹt điểm số không mang lại sự tự tin và tư duy độc lập lâu dài cho người học.
+              </p>
+            </div>
+          </div>
+
+          <!-- Cột mốc 2 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-time">Định Hình Triết Lý</div>
+              <h4 class="timeline-title">Chạm Đến Mô Hình 3 Gốc & Chánh Kiến</h4>
+              <p class="timeline-text">
+                Đúc kết nguyên lý giáo dục dựa trên 3 giá trị: Đạo đức – Trí tuệ – Nghị lực. Xây dựng phương pháp dạy học gắn liền với bản chất vấn đề, truyền cảm hứng tự học và rèn luyện đạo lý cho từng học viên.
+              </p>
+            </div>
+          </div>
+
+          <!-- Cột mốc 3 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-time">Hôm Nay & Tương Lai</div>
+              <h4 class="timeline-title">Lan Tỏa & Đồng Hành Bền Bỉ</h4>
+              <p class="timeline-text">
+                Ứng dụng công nghệ hiện đại, tự động hóa và phương tiện số để lan tỏa bài giảng, tư liệu sống giá trị đến đông đảo người học. Giữ trọn tâm thế phụng sự và cầu thị học hỏi không ngừng.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         GÓC TRI THỨC & TRÍCH DẪN TRUYỀN CẢM HỨNG (QUOTES)
+         ========================================================================== -->
+    <section class="quote-generator-section" id="quotes">
+      <div class="container">
+        <div class="quote-display-card">
+          <div class="quote-icon-large">“</div>
+          <div class="quote-dynamic-text" id="quoteText">
+            “Thay đổi cuộc đời bằng tri thức đúng – Chánh kiến: Học - Hiểu - Hành.”
+          </div>
+          <div class="quote-dynamic-author" id="quoteAuthor">
+            — Trương Trần Thế Quang (Tea Quang)
+          </div>
+          <button class="btn-new-quote" id="newQuoteBtn" title="Bấm để xem một thông điệp ý nghĩa khác">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+            <span>Nhận Thông Điệp Ý Nghĩa Khác</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         LIÊN HỆ & KẾT NỐI (ZALO, FACEBOOK, FORM)
+         ========================================================================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Kết Nối Nhanh</div>
+          <h2 class="section-title">Gặp Gỡ & Giao Lưu Cùng Tea Quang</h2>
+          <p class="section-desc">
+            Nếu bạn đang tìm kiếm người đồng hành trên hành trình nâng cao tri thức, rèn luyện tư duy Chánh kiến hoặc chia sẻ chuyên môn giáo dục, hãy kết nối ngay với tôi qua các kênh dưới đây.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Cột mạng xã hội & Hotline trực tiếp -->
+          <div class="social-direct-column">
+            
+            <!-- Card Kết nối Zalo -->
+            <div class="social-card">
+              <div class="social-card-left">
+                <div class="social-logo-circle zalo">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.03 2 11c0 2.87 1.5 5.43 3.84 7.02-.17 1.25-.77 3.12-1.78 4.25 0 0 2.5-.2 4.75-1.57.7.19 1.43.3 2.19.3 5.52 0 10-4.03 10-9s-4.48-9-10-9zm1.18 12.25h-3.4c-.28 0-.5-.22-.5-.5v-.35c0-.28.22-.5.5-.5h2.12l-2.5-3.32c-.1-.13-.15-.29-.15-.45v-.38c0-.28.22-.5.5-.5h3.25c.28 0 .5.22.5.5v.35c0 .28-.22.5-.5.5h-1.97l2.5 3.32c.1.13.15.29.15.45v.38c0 .28-.22.5-.5.5z"/></svg>
+                </div>
+                <div class="social-info-texts">
+                  <h4>Zalo Trực Tiếp</h4>
+                  <p>0984 950 343 • Phản hồi nhanh nhất</p>
+                </div>
+              </div>
+              <a href="https://zalo.me/0984950343" target="_blank" rel="noopener noreferrer" class="btn-connect-sm zalo">
+                Nhắn Ngay
+              </a>
+            </div>
+
+            <!-- Card Kết nối Facebook -->
+            <div class="social-card">
+              <div class="social-card-left">
+                <div class="social-logo-circle fb">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                </div>
+                <div class="social-info-texts">
+                  <h4>Facebook Cá Nhân</h4>
+                  <p>Giao lưu, chia sẻ bài viết & góc nhìn</p>
+                </div>
+              </div>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="btn-connect-sm fb">
+                Theo Dõi
+              </a>
+            </div>
+
+            <!-- Hộp Sao Chép Nhanh Số Điện Thoại -->
+            <div class="quick-copy-card">
+              <div class="quick-copy-header">
+                <span class="quick-copy-title">Số Điện Thoại / Zalo Cá Nhân</span>
+                <span style="font-size:0.8rem; color:var(--primary); font-weight:700;">● Trực Tuyến</span>
+              </div>
+              <div class="quick-copy-box">
+                <span class="phone-number-display" id="phoneText">0984 950 343</span>
+                <button class="btn-copy-action" id="copyPhoneBtn" title="Sao chép số điện thoại">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Sao Chép</span>
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Cột Form Gửi Thư Trực Tuyến -->
+          <div class="contact-form-wrap">
+            <h3 class="contact-form-title">Gửi Lời Nhắn Đến Tea Quang</h3>
+            <p class="contact-form-subtitle">Vui lòng để lại họ tên cùng thông tin liên hệ, tôi sẽ hồi đáp bạn sớm nhất.</p>
+
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="formName" class="form-label">Họ và tên của bạn *</label>
+                <input type="text" id="formName" class="form-input" placeholder="Ví dụ: Nguyễn Văn An" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formContact" class="form-label">Số điện thoại / Zalo *</label>
+                <input type="text" id="formContact" class="form-input" placeholder="Ví dụ: 0912 345 678" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formMessage" class="form-label">Nội dung trao đổi *</label>
+                <textarea id="formMessage" class="form-textarea" placeholder="Chia sẻ câu hỏi hoặc vấn đề bạn muốn trao đổi cùng Tea Quang..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit-form">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                <span>Gửi Tin Nhắn Ngay</span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-logo">
+        <div class="brand-icon" style="width:32px; height:32px; font-size:1rem;">Q</div>
+        <span>Trương Trần Thế Quang (Tea Quang)</span>
+      </div>
+      <p class="footer-motto">
+        “Thay đổi cuộc đời bằng tri thức đúng – Chánh kiến: Học - Hiểu - Hành” <br>
+        3 Giá trị cốt lõi: Đạo đức • Trí tuệ • Nghị lực
+      </p>
+
+      <ul class="footer-links">
+        <li><a href="#hero" class="footer-link">Trang Chủ</a></li>
+        <li><a href="#pillars" class="footer-link">3 Giá Trị Cốt Lõi</a></li>
+        <li><a href="#journey" class="footer-link">Hành Trình</a></li>
+        <li><a href="https://zalo.me/0984950343" target="_blank" rel="noopener noreferrer" class="footer-link">Zalo: 0984 950 343</a></li>
+        <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="footer-link">Facebook</a></li>
+      </ul>
+
+      <div class="footer-copyright">
+        &copy; 2026 Trương Trần Thế Quang. Đã tối ưu chuẩn Mobile-First & Sẵn sàng chạy trên GitHub Pages.
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MOBILE STICKY BOTTOM BAR (ZALO & FACEBOOK)
+       ========================================================================== -->
+  <div class="mobile-bottom-bar" aria-label="Kết nối nhanh trên di động">
+    <a href="https://zalo.me/0984950343" target="_blank" rel="noopener noreferrer" class="mobile-bar-btn zalo">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.03 2 11c0 2.87 1.5 5.43 3.84 7.02-.17 1.25-.77 3.12-1.78 4.25 0 0 2.5-.2 4.75-1.57.7.19 1.43.3 2.19.3 5.52 0 10-4.03 10-9s-4.48-9-10-9zm1.18 12.25h-3.4c-.28 0-.5-.22-.5-.5v-.35c0-.28.22-.5.5-.5h2.12l-2.5-3.32c-.1-.13-.15-.29-.15-.45v-.38c0-.28.22-.5.5-.5h3.25c.28 0 .5.22.5.5v.35c0 .28-.22.5-.5.5h-1.97l2.5 3.32c.1.13.15.29.15.45v.38c0 .28-.22.5-.5.5z"/></svg>
+      <span>Zalo Ngay</span>
+    </a>
+    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="mobile-bar-btn fb">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      <span>Facebook</span>
+    </a>
+  </div>
+
+  <!-- Nút Cuộn Lên Đầu Trang -->
+  <button class="floating-back-to-top" id="backToTopBtn" aria-label="Cuộn lên đầu trang" title="Cuộn lên đầu trang">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <!-- ==========================================================================
+       JAVASCRIPT THUẦN (VANILLA JS HOÀN CHỈNH)
+       ========================================================================== -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. THEME TOGGLE (DARK / LIGHT MODE)
+      const htmlEl = document.documentElement;
+      const themeToggleBtn = document.getElementById('themeToggleBtn');
+      const iconSun = document.getElementById('themeIconSun');
+      const iconMoon = document.getElementById('themeIconMoon');
+
+      const savedTheme = localStorage.getItem('theme_preference') || 
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      
+      applyTheme(savedTheme);
+
+      themeToggleBtn.addEventListener('click', () => {
+        const currentTheme = htmlEl.getAttribute('data-theme');
+        const nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        applyTheme(nextTheme);
+        localStorage.setItem('theme_preference', nextTheme);
+        showToast(nextTheme === 'dark' ? '🌙 Đã chuyển sang giao diện Tối' : '☀️ Đã chuyển sang giao diện Sáng');
+      });
+
+      function applyTheme(theme) {
+        htmlEl.setAttribute('data-theme', theme);
+        if (theme === 'dark') {
+          iconSun.style.display = 'block';
+          iconMoon.style.display = 'none';
+        } else {
+          iconSun.style.display = 'none';
+          iconMoon.style.display = 'block';
+        }
+      }
+
+      // 2. SCROLL PROGRESS & BACK TO TOP BUTTON
+      const scrollProgress = document.getElementById('scrollProgress');
+      const backToTopBtn = document.getElementById('backToTopBtn');
+
+      window.addEventListener('scroll', () => {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+        scrollProgress.style.width = `${progress}%`;
+
+        if (scrollTop > 380) {
+          backToTopBtn.classList.add('visible');
+        } else {
+          backToTopBtn.classList.remove('visible');
+        }
+      }, { passive: true });
+
+      backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      // 3. MOBILE MENU DRAWER TOGGLE
+      const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+      const mobileDrawer = document.getElementById('mobileDrawer');
+      const drawerLinks = document.querySelectorAll('.mobile-drawer-link');
+
+      mobileMenuBtn.addEventListener('click', () => {
+        const isOpen = mobileDrawer.classList.toggle('open');
+        mobileMenuBtn.setAttribute('aria-expanded', isOpen);
+      });
+
+      drawerLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          mobileDrawer.classList.remove('open');
+          mobileMenuBtn.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      // 4. INTERACTIVE METHODOLOGY TABS (HỌC - HIỂU - HÀNH)
+      const tabBtns = document.querySelectorAll('.method-tab-btn');
+      const tabPanels = document.querySelectorAll('.method-panel');
+
+      tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          tabBtns.forEach(b => b.classList.remove('active'));
+          tabPanels.forEach(p => p.classList.remove('active'));
+
+          btn.classList.add('active');
+          const targetId = btn.getAttribute('data-tab');
+          const targetPanel = document.getElementById(targetId);
+          if (targetPanel) {
+            targetPanel.classList.add('active');
+          }
+        });
+      });
+
+      // 5. RANDOM QUOTES GENERATOR
+      const quotesList = [
+        { text: "Thay đổi cuộc đời bằng tri thức đúng – Chánh kiến: Học - Hiểu - Hành.", author: "Trương Trần Thế Quang (Tea Quang)" },
+        { text: "Đạo đức là chiếc la bàn, Trí tuệ là ngọn đèn soi sáng, Nghị lực là đôi chân vững bước trên mọi nẻo đường.", author: "Triết Lý 3 Gốc Rễ" },
+        { text: "Học mà không hiểu là học vẹt. Hiểu mà không hành là hiểu suông. Hành có hiểu biết mới sinh ra trí tuệ đích thực.", author: "Chánh Kiến Thực Hành" },
+        { text: "Dũng để vượt qua sợ hãi, Nhẫn để bền bỉ tiến lên, Tĩnh để tâm không lung lạc trước bão giông.", author: "Rèn Luyện Nghị Lực" },
+        { text: "Món quà quý giá nhất một người thầy có thể trao tặng không phải là đáp án, mà là phương pháp tự tìm ra chân lý.", author: "Giáo Dục Khai Phóng" },
+        { text: "Gieo suy nghĩ, gặt hành động; gieo hành động, gặt thói quen; gieo thói quen, gặt tính cách; gieo tính cách, gặt số phận.", author: "Đạo Lý Nhân Quả" }
+      ];
+
+      const quoteTextEl = document.getElementById('quoteText');
+      const quoteAuthorEl = document.getElementById('quoteAuthor');
+      const newQuoteBtn = document.getElementById('newQuoteBtn');
+      let currentQuoteIndex = 0;
+
+      newQuoteBtn.addEventListener('click', () => {
+        let nextIndex;
+        do {
+          nextIndex = Math.floor(Math.random() * quotesList.length);
+        } while (nextIndex === currentQuoteIndex && quotesList.length > 1);
+
+        currentQuoteIndex = nextIndex;
+        quoteTextEl.style.opacity = '0';
+        quoteAuthorEl.style.opacity = '0';
+
+        setTimeout(() => {
+          quoteTextEl.textContent = `“${quotesList[currentQuoteIndex].text}”`;
+          quoteAuthorEl.textContent = `— ${quotesList[currentQuoteIndex].author}`;
+          quoteTextEl.style.opacity = '1';
+          quoteAuthorEl.style.opacity = '1';
+        }, 200);
+      });
+
+      // 6. QUICK COPY PHONE / ZALO NUMBER
+      const copyPhoneBtn = document.getElementById('copyPhoneBtn');
+      copyPhoneBtn.addEventListener('click', async () => {
+        const rawPhone = '0984950343';
+        try {
+          if (navigator.clipboard && window.isSecureContext) {
+            await navigator.clipboard.writeText(rawPhone);
+          } else {
+            const tempInput = document.createElement('input');
+            tempInput.value = rawPhone;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+          }
+          showToast('📋 Đã sao chép số Zalo: 0984 950 343');
+        } catch (err) {
+          showToast('Số Zalo: 0984 950 343');
+        }
+      });
+
+      // 7. CONTACT FORM SUBMISSION
+      const contactForm = document.getElementById('contactForm');
+      contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const name = document.getElementById('formName').value.trim();
+        const contact = document.getElementById('formContact').value.trim();
+        const message = document.getElementById('formMessage').value.trim();
+
+        if (!name || !contact || !message) {
+          showToast('⚠️ Vui lòng điền đầy đủ thông tin');
+          return;
+        }
+
+        // Lưu bản ghi tin nhắn vào LocalStorage
+        const submission = { name, contact, message, timestamp: new Date().toISOString() };
+        const savedSubmissions = JSON.parse(localStorage.getItem('tea_quang_messages') || '[]');
+        savedSubmissions.push(submission);
+        localStorage.setItem('tea_quang_messages', JSON.stringify(savedSubmissions));
+
+        showToast(`🎉 Cảm ơn bạn ${name}! Lời nhắn đã được gửi thành công.`);
+        contactForm.reset();
+      });
+
+      // 8. TOAST NOTIFICATION HELPER
+      function showToast(message) {
+        const container = document.getElementById('toastContainer');
+        const toast = document.createElement('div');
+        toast.className = 'toast-msg';
+        toast.textContent = message;
+        container.appendChild(toast);
+
+        setTimeout(() => {
+          toast.style.opacity = '0';
+          toast.style.transform = 'translateX(100%)';
+          toast.style.transition = 'all 0.3s ease';
+          setTimeout(() => toast.remove(), 300);
+        }, 3200);
+      }
+    });
+  </script>
+</body>
+</html>
